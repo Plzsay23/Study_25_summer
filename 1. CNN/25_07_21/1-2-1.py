@@ -6,6 +6,6 @@ img = cv2.resize(img, (600, 600))
 
 cv2.imshow("test", img)
 
-cv2.waitKey(0)
+cv2.waitKey()
 
 cv2.destroyAllWindows()
